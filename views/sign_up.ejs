@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/css/signUp.css">
+<section id="sign-up-page">
+    <div class="card" id="div1">        
+        <h1 class="card-title">
+            Sign Up
+        </h1>
+        <form action="/create" method="post" id="form">
+            <div id="name" class="card">
+                <input class="card" type="text" name="name" placeholder="Enter Your Name">
+            </div>
+            <div id="email" class="card">
+                <input class="card" type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div id="password" class="card">
+                <input class="card" type="password" name="password" placeholder="Enter Your Password" required>
+            </div>
+            <div id="confirm_password" class="card">
+                <input class="card" type="password" name="confirm_password" placeholder="Enter Your Confirm Password">
+            </div>
+            <div id="submit" class="card">
+                <input type="submit" value="Submit">
+            </div>
+            <div id="div2">
+                <h4 class="h4">Already have an Account <a href="/">Login In</a></h4>
+            </div>
+                <a href="/auth/google" class="btn button">Sign In With Google</a>
+    </form>
+</div>
+</section>

@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/css/header.css">
+<header id="header">
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">
+        <h3>Profile</h3>
+      </a>
+      <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <% if(locals.user) {%>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/home">
+                <%=user.name%>
+              </a>
+            </li class="nav-item">
+            <li><a class="nav-link text-white" href="/sign-out">Sign Out</a></li>
+
+            <%}else{%>
+              <li class="nav-item text-white"><a class="nav-link" href="/">Sign In</a></li>
+              <li class="nav-item text-white"><a class="nav-link" href="/sign-up">Sign Up</a></li>
+              <%}%>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@200&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* border: 2px solid black; */
+
+}
+
+#sign-in-page {
+    display: flex;
+    flex-direction: column;
+}
+
+#div1 {
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 5% !important;
+    width: 120%;
+    height: 70vh;
+}
+
+.card-title {
+    margin-top: 5%;
+    font-family: 'Lumanosimo', cursive;
+}
+
+#form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+#email {
+    width: 150%;
+    margin-left: -.5rem;
+    margin-top: 40%;
+}
+
+#form input {
+    width: 100%;
+    border: 0px;
+    padding: .5rem;
+    padding-left: .7rem;
+    background-color: rgb(252, 251, 250);
+    font-size: .9rem;
+}
+
+#submit {
+    width: 130%;
+    margin-top: 5%;
+    border-radius: 20px !important;
+}
+
+#submit input {
+    width: 115%;
+    margin-left: -1.4rem;
+    border-radius: 5px !important;
+    background-color: rgb(91, 196, 225);
+    padding: .4rem;
+}
+
+
+#password {
+    width: 150%;
+    margin-left: -.5rem;
+    margin-top: 5%;
+
+}
+
+#div2 {
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+.h4 {
+    font-size: 20px;
+}
+#buttons{
+    display: flex;
+}
+.btn{
+    /* width: 60%; */
+    color: white;
+    text-decoration: none;
+    font-size: .7rem !important;
+    background-color: black;
+    /* padding: .5rem; */
+    border-radius: 20px;
+}
+.btn1{
+    color: white;
+    text-decoration: none;
+    font-size: .7rem !important;
+    background-color: black;
+    /* margin-top: 1rem; */
+    margin-left: .5rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+#link1{
+    padding-top: .1rem ;
+}
+.card a:hover {
+    color: rgb(227, 6, 6);
+    background-color: white;
+    border: 1px solid black;
+}

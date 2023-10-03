@@ -1,0 +1,77 @@
+body{    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+#sign-up-page{
+        display: flex;
+        flex-direction:column ;
+}
+
+#div1{
+    align-items: center;
+    padding-top:1rem ;    
+    margin-top: 5% !important;
+    width: 120%;
+    height: 80vh;
+}
+.card-title{
+    margin-top: 5%;
+    font-family: 'Lumanosimo', cursive;
+}
+#form{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+#email{
+    width: 100%;
+    margin-left: -.5rem;
+    margin-top: 5%;
+}
+#name{
+    width: 100%;
+    margin-left: -.5rem;
+    margin-top: 20%;
+}
+#form input{
+    width: 100%;
+    border: 0px;
+    padding: .5rem;
+    padding-left: .7rem;
+    background-color: rgb(252, 251, 250);
+    font-size: .9rem;
+}
+
+#submit{
+    width: 90%;
+    margin-top: 5%;   
+    border-radius: 20px !important;
+}
+#submit input{
+    width: 110%;
+    margin-left: -1rem;
+    border-radius: 5px !important;
+    background-color: rgb(91, 196, 225);
+    padding: .4rem;
+}
+
+
+#password{
+    width: 100%;
+    margin-left: -.5rem;
+    margin-top: 5%;
+    
+}
+#confirm_password{
+    width: 100%;
+    margin-left: -.5rem;
+    margin-top: 5%;    
+}
+#div2{
+    margin-top: 10% ;
+}
+.h4{
+    font-size: 20px;
+}
